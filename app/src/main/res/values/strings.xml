@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Przepisy</string>
+    <string name="typPrzepisu1">przekaska</string>
+    <string name="typPrzepisu2">obiad</string>
+    <string name="typPrzepisu3">deser</string>
+    <string name="nazwaPrzepisu1">przekaska</string>
+    <string name="nazwaPrzepisu2">przekaska</string>
+    <string name="nazwaPrzepisu3">przekaska</string>
+    <string name="nazwaPrzepisu4">przekaska</string>
+    <string name="nazwaPrzepisu5">przekaska</string>
+    <string name="nazwaPrzepisu6">przekaska</string>
+    <string name="nazwaPrzepisu7">przekaska</string>
+    <string name="nazwaPrzepisu8">przekaska</string>
+    <string name="nazwaPrzepisu9">przekaska</string>
+
+    <string name="przepis1">przekaska</string>
+    <string name="przepis2">przekaska</string>
+    <string name="przepis3">przekaska</string>
+    <string name="przepis4">przekaska</string>
+    <string name="przepis5">przekaska</string>
+    <string name="przepis6">przekaska</string>
+    <string name="przepis7">przekaska</string>
+    <string name="przepis8">przekaska</string>
+    <string name="przepis9">przekaska</string>
+
+
+</resources>

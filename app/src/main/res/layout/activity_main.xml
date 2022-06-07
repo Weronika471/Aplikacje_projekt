@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Przepisy"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idwybierz"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/teal_700"
+        android:drawableStart="@drawable/dodaj"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="dodajPrzepis"
+        android:text="Wybierz przepis"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/idulubione"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idulubione"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/teal_700"
+        android:drawableStart="@drawable/serce"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="ulubione"
+        android:text="Ulubione przepisy"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/idostatnie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idostatnie"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/teal_700"
+        android:drawableStart="@drawable/zegar"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="ostatnioGotowane"
+        android:text="Ostatnio gotowane"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="349dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ksiazka" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".WyborPrzepisu">
+
+    <TextView
+        android:id="@+id/wybierztext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Wybierz rodzaj posiłku:"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/przekaski"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="108dp"
+        android:onClick="clickPrzekaski"
+        android:text="Przekąski"
+        app:layout_constraintBottom_toTopOf="@+id/obiad"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/obiad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="117dp"
+        android:onClick="clickObiad"
+        android:text="Obiad"
+        app:layout_constraintBottom_toTopOf="@+id/deser"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/deser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="69dp"
+        android:onClick="clickDeser"
+        android:text="Deser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="166dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toStartOf="@+id/przekaski"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/przekaski" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="166dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/obiad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/obiad" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/deser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/deser" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

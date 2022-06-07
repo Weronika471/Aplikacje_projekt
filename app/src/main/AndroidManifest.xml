@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.android_projekt_252876">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ksiazka"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android_projekt_252876">
+        <activity
+            android:name=".ListaPrzepisow"
+            android:exported="false" />
+        <activity
+            android:name=".DataBaseHelper"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Przepis"
+            android:exported="false"
+            android:orientation="vertical"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".OstatniePrzepisy"
+            android:exported="false"
+            android:orientation="vertical"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".UlubionePrzepisy"
+            android:exported="false"
+            android:orientation="vertical"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".WyborPrzepisu"
+            android:exported="false"
+            android:orientation="vertical"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
