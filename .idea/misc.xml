@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/Alles/Dokumenty/AiR semestr 6/Aplikacje mobilne/Android_projekt_252876/app/src/main/res/drawable/dodaj.xml" value="0.1" />
         <entry key="..\:/Alles/Dokumenty/AiR semestr 6/Aplikacje mobilne/Android_projekt_252876/app/src/main/res/drawable/ic_launcher_background.xml" value="0.155" />
+        <entry key="..\:/Alles/Dokumenty/AiR semestr 6/Aplikacje mobilne/Android_projekt_252876/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
+        <entry key="..\:/Alles/Dokumenty/AiR semestr 6/Aplikacje mobilne/Android_projekt_252876/app/src/main/res/layout-small/activity_main.xml" value="0.24818840579710144" />
+        <entry key="..\:/Alles/Dokumenty/AiR semestr 6/Aplikacje mobilne/Android_projekt_252876/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1871584699453552" />
+        <entry key="..\:/Alles/Dokumenty/AiR semestr 6/Aplikacje mobilne/Android_projekt_252876/app/src/main/res/layout/activity_data_base_helper.xml" value="0.24818840579710144" />
         <entry key="..\:/Alles/Dokumenty/AiR semestr 6/Aplikacje mobilne/Android_projekt_252876/app/src/main/res/layout/activity_lista_przepisow.xml" value="0.25416666666666665" />
         <entry key="..\:/Alles/Dokumenty/AiR semestr 6/Aplikacje mobilne/Android_projekt_252876/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Alles/Dokumenty/AiR semestr 6/Aplikacje mobilne/Android_projekt_252876/app/src/main/res/layout/activity_ostatnie_przepisy.xml" value="0.25416666666666665" />

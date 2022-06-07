@@ -12,7 +12,10 @@
         android:theme="@style/Theme.Android_projekt_252876">
         <activity
             android:name=".ListaPrzepisow"
-            android:exported="false" />
+            android:exported="false"
+            android:orientation="vertical"
+            android:parentActivityName=".WyborPrzepisu"
+            android:screenOrientation="nosensor"/>
         <activity
             android:name=".DataBaseHelper"
             android:exported="false"

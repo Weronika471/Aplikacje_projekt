@@ -3,25 +3,195 @@
     <string name="typPrzepisu1">przekaska</string>
     <string name="typPrzepisu2">obiad</string>
     <string name="typPrzepisu3">deser</string>
-    <string name="nazwaPrzepisu1">przekaska</string>
-    <string name="nazwaPrzepisu2">przekaska</string>
-    <string name="nazwaPrzepisu3">przekaska</string>
-    <string name="nazwaPrzepisu4">przekaska</string>
-    <string name="nazwaPrzepisu5">przekaska</string>
-    <string name="nazwaPrzepisu6">przekaska</string>
-    <string name="nazwaPrzepisu7">przekaska</string>
-    <string name="nazwaPrzepisu8">przekaska</string>
-    <string name="nazwaPrzepisu9">przekaska</string>
+    <string name="nazwaPrzepisu1">Chrupiący kalafior z piekarnika</string>
+    <string name="nazwaPrzepisu2">Delikatna pasta z awokado i jajek</string>
+    <string name="nazwaPrzepisu3">Pasta jajeczna z żółtym serem</string>
+    <string name="nazwaPrzepisu7">Ciasto 4 jabłka i 4 jajka</string>
+    <string name="nazwaPrzepisu8">Placki jogurtowe z bananami</string>
+    <string name="nazwaPrzepisu9">Racuchy na maślance z jabłkami</string>
+    <string name="nazwaPrzepisu4">Kurczak curry z fasolką szparagową</string>
+    <string name="nazwaPrzepisu5">Risotto z cukinią i sałatą rzymską</string>
+    <string name="nazwaPrzepisu6">Zupa gołąbkowa</string>
 
-    <string name="przepis1">przekaska</string>
-    <string name="przepis2">przekaska</string>
-    <string name="przepis3">przekaska</string>
-    <string name="przepis4">przekaska</string>
-    <string name="przepis5">przekaska</string>
-    <string name="przepis6">przekaska</string>
-    <string name="przepis7">przekaska</string>
-    <string name="przepis8">przekaska</string>
-    <string name="przepis9">przekaska</string>
+    <string name="przepis1">Składniki:\n\n
+        1 duży kalafior\n
+        2 szklanki płatków kukurydzianych\n
+        1 szklanka mąki pszennej\n
+        1 szklanka gazowanej wody mineralnej\n
+        1 jajko\n
+        3 ząbki czosnku\n
+        1 łyżeczka słodkiej papryki\n
+        1 łyżeczka ostrej papryki\n
+        sól\n
+        świeżo zmielony czarny pieprz\n\n
+        Przygotowanie:\n\n
+        Kalafior podziel na pojedyncze różyczki.
+        Do miski wsyp mąkę i dodaj oba rodzaje papryki, jajko, wodę, sól, pieprz i czosnek przeciśnięty przez praskę. Wszystko dokładnie wymieszaj.
+        Różyczki kalafiora przełóż do miski z ciastem.
+        Płatki kukurydziane zgnieć dłońmi na małe kawałki.
+        Blachę wyłóż papierem do pieczenia i skrop ją olejem.
+        Różyczki kalafiora obtaczaj w płatkach kukurydzianych i układaj na blasze.
+        Wstaw do piekarnika nagrzanego do 220 stopni C i zapiekaj 20-25 minut, aż panierka ładnie się zarumieni.</string>
+    <string name="przepis2">Składniki:\n\n
+        1 awokado\n
+        4 jajka ugotowane na twardo\n
+        6 łodyżek szczypiorku\n
+        1/2 małego pęczka świeżej kolendry\n
+        1 łyżka majonezu\n
+        2 czubate łyżki gęstego naturalnego jogurtu\n
+        sól\n
+        świeżo zmielony pieprz\n\n
+        Przygotowanie:\n\n
+        Obrane awokado pokrój na drobną kosteczkę.
+        Jajka pokrój na nieco większe kawałki niż awokado.
+        Szczypiorek i kolendrę drobno posiekaj.
+        Wszystkie składniki przełóż do miski.
+        Jogurt wymieszaj z majonezem, dopraw solą i pieprzem. Sos dodaj do miski i wymieszaj.</string>
+    <string name="przepis3">Składniki:\n\n
+        8 jajek\n
+        20 g żółtego ostrego sera\n
+        1 mały pęczek natki pietruszki\n
+        1 czubata łyżka majonezu\n
+        1 czubata łyżeczka musztardy miodowej\n
+        1/2 płaskiej łyżeczki ostrej papryki w proszku\n
+        sól\n
+        świeżo zmielony czarny pieprz\n\n
+        Przygotowanie:\n\n
+        Jajka włóż do rondla, zalej zimną wodą, by były w niej całkowicie zanurzone. Wsyp sól. Postaw na ogniu, doprowadź do wrzenia i gotuj 6 minut.
+        Odlej gorącą wodę, jajka zalej zimną wodą. Po kilku minutach obierz.
+        Jajka przełóż do miski i rozgnieć je tłuczkiem do ziemniaków (możesz też je posiekać lub rozdrobnić w malakserze).
+        Natkę drobno posiekaj.
+        Ser zetrzyj na tarce o drobnych oczkach.
+        Do jajek dodaj majonez, natkę, musztardę, ser. Dopraw solą i pieprzem. Wymieszaj na jednolitą masę.</string>
+    <string name="przepis7">Składniki:\n\n
+        4 jabłka średniej wielkości (około 650 g)\n
+        4 jajka\n
+        350 g mąki tortowej\n
+        200 g cukru\n
+        200 ml mleka\n
+        100 g roztopionego masła\n
+        2 łyżki cukru waniliowego\n
+        2 łyżeczki proszki do pieczenia\n
+        szczypta soli\n\n
+        Przygotowanie:\n\n
+        Keksówkę wysmaruj masłem i wysyp tartą bułką.
+        Piekarnik rozgrzej do 180 stopni.
+        Do miski wlej litr zimnej wody, wyciśnij do niej sok z cytryny.
+        Jabłka obierz, pokrój na kostkę o boku około 2 cm i od razu przełóż do miski z wodą.
+        Do miski dodaj jajka i cukier oraz cukier waniliowy. Ubij mikserem na puszystą masę.
+        Dodaj do niej mąkę, proszek do pieczenia i szczyptę soli. Wlej mleko. Zmiksuj mikserem na jednolitą masę.
+        Miksując wlewaj powoli roztopione i przestudzone masło, dokładnie wymieszaj.
+        Dodaj odsączone kawałki jabłek i wymieszaj łyżką.
+        Ciasto przelej do keksówki, wstaw do gorącego piekarnika i piecz przez 45 minut.
+        Wyjmij z piekarnika, odstaw do przestudzenia. Wyjmij z keksówki, posyp cukrem pudrem.</string>
+    <string name="przepis8">Składniki:\n\n
+        3 banany - najlepiej mocno dojrzałe\n
+        200 g pszennej mąki\n
+        2 płaskie łyżeczki proszku do pieczenia\n
+        szczypta soli\n
+        400 g gęstego jogurtu\n
+        3 małe jajka (lub 2 duże)\n
+        1 łyżku cukru wanilinowego\n\n
+        Przygotowanie:\n\n
+        Obrane banany pokrój na cienkie plasterki.
+        Do dużej miski wsyp mąkę, dodaj proszek do pieczenia i sól. Dokładnie wymieszaj.
+        W drugiej misce dokładnie wymieszaj jogurt z jajkami i cukrem waniliowym.
+        Mieszaninę wlej do miski z mąką, krótko i energicznie wymieszaj. Masa będzie dość gęsta i taka powinna być.
+        Dodaj plasterki bananów i wymieszaj.
+        Na patelni rozgrzej olej (jego warstwa powinna mieć 3-4 mm wysokości). Łyżką nakładaj porcje masy i formuj płaskie placki.
+        Smaż po 2-3 minuty z każdej strony, aż apetycznie się zrumienią.
+        Przekładaj na talerz wyłożony papierowym ręcznikiem, by pozbyć się nadmiaru tłuszczu.
+        Podawaj posypane cukrem pudrem lub brązowym cukrem.</string>
+    <string name="przepis9">Składniki:\n\n
+        3 szklanki (450 g) mąki pszennej\n
+        500 ml maślanki\n
+        1 jajko\n
+        1 płaska łyżeczka soli\n
+        1 płaska łyżeczka sodu\n
+        3 jabłka (około 400 g)\n
+        olej do smażenia (około 200 ml)\n\n
+        Przygotowanie:\n\n
+        Wszystkie produkty powinny być w temperaturze pokojowej.
+        Maślankę przelej do miski, dodaj jajko i dokładnie wymieszaj za pomocą trzepaczki.
+        Dodaj mąkę i sól, wszystko dokładnie wymieszaj.
+        Dodaj łyżeczkę sody i mieszaj energicznie przez minutę, miskę odstaw na czas przygotowania jabłek.
+        Obrane jabłka pokrój na ćwiartki, usuń gniazda nasienne, następnie pokrój na cienkie i małe kawałki.
+        Dodaj do masy i wymieszaj.
+        Na patelni rozgrzej olej (jego warstwa powinna mieć kilka mm wysokości). Na gorący olej wykładaj porcje masy (kopiasta łyżka stołowa). Formuj zgrabne racuchy.
+        Racuchy smaż po 2-3 minuty z każdej strony na średnim ogniu, aż ładnie się zrumienią. Przekładaj na talerz wyłożony papierowym ręcznikiem, by pozbyć się nadmiaru tłuszczu.
+        W razie potrzeby do patelni dolej oleju i chwilę go podgrzewaj.
+        Gotowe racuchy posyp cukrem pudrem.</string>
+    <string name="przepis4">Składniki:\n\n
+        350 g piersi kurczaka\n
+        opakowanie (450 g) fasolki szparagowej zielonej\n
+        250 ml mleka kokosowego\n
+        1 czerwona papryka\n
+        1 mała biała cebula\n
+        2 garście liści szpinaku\n
+        2 łyżki gotowej pasty curry\n
+        100 g świeżych liści szpinaku\n
+        3 łyżki oleju\n
+        sól\n
+        świeżo zmielony czarny pieprz\n\n
+        Przygotowanie:\n\n
+        Fasolkę szparagową zieloną gotuj na parze przez 5 minut.
+        Z papryki usuń nasiona, pokrój na podłużne kawałki.
+        Mięso pokrój na kostkę o boku około 1 cm. Obraną cebulę pokrój na cienkie piórka.
+        W woku lub dużej patelni silnie rozgrzej olej, dodaj cebulę i smaż cały czas mieszając przez dwie minuty - aż cebula zacznie się szklić.
+        Dodaj pastę curry, wymieszaj i smaż przez minutę.
+        Wlej mleko kokosowe, wymieszaj, doprowadź do wrzenia.
+        Do woka dodaje mięso, wymieszaj i gotuj na średnim ogniu przez 5-7 minut.
+        Dodaj fasolkę i paprykę, wymieszaj i gotuj przez 2 minuty.
+        Dopraw solą i pieprzem. Dodaj szpinak, wymieszaj, trzymaj na ogniu pół minuty.
+        Podawaj z ryżem ugotowanym na sypko i chrupiącą sałatką - na przykład z ogórków i kiełków.</string>
+    <string name="przepis5">Składniki:\n\n
+        200 g ryżu arborio\n
+        750 ml (lub trochę więcej) warzywnego bulionu\n
+        3 małe cukinie o łącznej wadze około 400 g\n
+        2 małe sałaty rzymskie\n
+        1 cebula\n
+        50 g świeżo startego parmezanu\n
+        2 czubate łyżki masła\n
+        2 łyżki oleju\n
+        1 łyżka oliwy\n
+        świeżo zmielony pieprz\n
+        sól\n\n
+        Przygotowanie:\n\n
+        Sałaty rzymskie pokrój na małe kawałki.
+        Obraną cebulą pokrój na drobną kostkę.
+        Nieobrane cukinie pokrój na kostkę o boku około 1 cm.
+        Na patelni rozgrzej olej, dodaj cukinię, lekko posól i smaż na dużym ogniu cały czas mieszając, aż zmięknie i zacznie się szklić. Zdejmij z ogni.
+        Na patelni rozgrzej łyżkę masła z oliwą, dodaj cebulę i smaż na średnim ogniu 2-3 minuty, cały czas mieszając. Gdy cebula stanie się szklista (ale nie zrumieniona!) dodaj ryż. Całość mieszając smaż, aż wszystkie ziarenka pokryją się tłuszczem.
+        Dodaj pierwszą szklankę bulionu i dalej gotuj na średnim ogniu cały czas mieszając, aż do wchłonięcia płynu. Wlewaj porcjami pozostały bulion - za każdym razem po wchłonięciu poprzedniej porcji.
+        Kiedy ryż będzie miękki (po około 15-20 minutach) dodaj podsmażoną cukinię. Wymieszaj, trzymaj na ogniu przez 2 minuty.
+        Zestaw z ognia, dodaj łyżkę masła, połowę parmezanu i sałatę rzymską, wymieszaj, odstaw na kilkach chwil, by smaki się wymieszały.
+        Porcje przełóż na talerze, posyp parmezanem.</string>
+    <string name="przepis6">Składniki:\n\n
+        300 g mielonego mięsa wieprzowego\n
+        1 mała kapusta pekińska (około 250 g)\n
+        8 szklanek bulionu\n
+        50 g ryżu\n
+        1 por\n
+        1 mała cebula\n
+        1 marchewka\n
+        4 łyżki oleju\n
+        2 łyżki koncentratu pomidorowego\n
+        125 ml kwaśnej śmietany min. 18%\n
+        1 łyżeczka słodkiej papryki w proszku\n
+        1/2 łyżeczki ostrej papryki w proszku\n
+        sól\n
+        świeżo zmielony czarny pieprz\n\n
+        Przygotowanie:\n\n
+        Z kapusty usuń brzydkie liście, następnie pokrój kapustę na małe kawałki.
+        Cebulę pokrój na drobną kostkę. Dokładnie wymytego pora (tylko białą część) pokrój na cienkie plasterki.
+        Marchewkę zetrzyj na tarce o grubych oczkach.
+        W dużym garnku rozgrzej olej, dodaj cebulę, lekko posól i smaż cały czas mieszając, aż zacznie się szklić (zajmie Ci to minutę).
+        Dodaj marchewkę, pora. Wymieszaj. Włóż mięso i energicznie mieszając, smaż, aż całkowicie zmieni kolor.
+        Wlej bulion, wsyp ryż wymieszaj, gotuj na średnim ogniu przez 10 minut.
+        Dodaj pokrojoną kapustę, koncentrat pomidorowy, wymieszaj, gotuj przez 5 minut.
+        Śmietanę posól, wlej kilka łyżek gorącej zupy, wymieszaj. Wlej do garnka, wymieszaj, garnek zestaw z ognia. Dodaj drobno posiekany koperek.
+        Dopraw solą i pieprzem.
+        Zupę podawaj z pieczywem lub ziemniakami. Lub samą, bez żadnych dodatków, w końcu jest w niej ryż.</string>
 
 
 </resources>

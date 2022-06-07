@@ -23,7 +23,6 @@ class ListaPrzepisow : AppCompatActivity() {
         var helper=DataBaseHelper(applicationContext)
         var db=helper.readableDatabase
         val rodzajDania = intent.getStringExtra("danie")
-        Toast.makeText(applicationContext, rodzajDania, Toast.LENGTH_SHORT).show()
 
         if(rodzajDania == "Przekaski") {
 
@@ -32,9 +31,9 @@ class ListaPrzepisow : AppCompatActivity() {
                 var nazwaPrzepisu=query.getString(1)
                 arrayListRepos.add(getString(nazwaPrzepisu.toInt()))
             }
-            listaPrzepisow.add(PrzepisElementy(R.drawable.zegar,"przekaska1"))
-            listaPrzepisow.add(PrzepisElementy(R.drawable.zegar,"przekaska2"))
-            listaPrzepisow.add(PrzepisElementy(R.drawable.zegar,"przekaska3"))
+            listaPrzepisow.add(PrzepisElementy(R.drawable.chrupiacy_kalafior,"Chrupiący kalafior z piekarnika"))
+            listaPrzepisow.add(PrzepisElementy(R.drawable.pasta_awoka_jajka,"Delikatna pasta z awokado i jajek"))
+            listaPrzepisow.add(PrzepisElementy(R.drawable.pasta_jajeczna_ser,"Pasta jajeczna z żółtym serem"))
 
             val customAdapter = CustomAdapter(this,R.layout.custom_list,listaPrzepisow)
             val listView=findViewById<ListView>(R.id.lista)
@@ -54,9 +53,9 @@ class ListaPrzepisow : AppCompatActivity() {
                 var plantName=query.getString(1)
                 arrayListRepos.add(getString(plantName.toInt()))
             }
-            listaPrzepisow.add(PrzepisElementy(R.drawable.zegar,"obiad1"))
-            listaPrzepisow.add(PrzepisElementy(R.drawable.zegar,"obiad2"))
-            listaPrzepisow.add(PrzepisElementy(R.drawable.zegar,"obiad3"))
+            listaPrzepisow.add(PrzepisElementy(R.drawable.curry_fasolka_hortex,"Kurczak curry z fasolką szparagową"))
+            listaPrzepisow.add(PrzepisElementy(R.drawable.risotto_cukinia_rzymska,"Risotto z cukinią i sałatą rzymską"))
+            listaPrzepisow.add(PrzepisElementy(R.drawable.zupa_golabkowa,"Zupa gołąbkowa"))
 
             val customAdapter = CustomAdapter(this,R.layout.custom_list,listaPrzepisow)
             val listView=findViewById<ListView>(R.id.lista)
@@ -75,9 +74,9 @@ class ListaPrzepisow : AppCompatActivity() {
                 var plantName=query.getString(1)
                 arrayListRepos.add(getString(plantName.toInt()))
             }
-            listaPrzepisow.add(PrzepisElementy(R.drawable.zegar,"deser1"))
-            listaPrzepisow.add(PrzepisElementy(R.drawable.zegar,"deser2"))
-            listaPrzepisow.add(PrzepisElementy(R.drawable.zegar,"deser3"))
+            listaPrzepisow.add(PrzepisElementy(R.drawable.ciasto_4jablka_4jajka,"Ciasto 4 jabłka i 4 jajka"))
+            listaPrzepisow.add(PrzepisElementy(R.drawable.placki_jogurtowe_banany,"Placki jogurtowe z bananami"))
+            listaPrzepisow.add(PrzepisElementy(R.drawable.racuchy_na_maslance1,"Racuchy na maślance z jabłkami"))
 
             val customAdapter = CustomAdapter(this,R.layout.custom_list,listaPrzepisow)
             val listView=findViewById<ListView>(R.id.lista)
