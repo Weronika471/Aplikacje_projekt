@@ -42,7 +42,7 @@ class ListaPrzepisow : AppCompatActivity() {
             listView.setOnItemClickListener { parent, view, position, id ->
                 val intent = Intent(this, Przepis::class.java)
                 val przepis :PrzepisElementy = listaPrzepisow[position]
-                intent.putExtra("danieid", arrayOf((position+1).toString(),przepis.Name,"Przekaski"))
+                intent.putExtra("danieid", arrayOf((position+1).toString(),przepis.Name,"przekaska"))
                 startActivity(intent)
             }
 
@@ -64,7 +64,7 @@ class ListaPrzepisow : AppCompatActivity() {
             listView.setOnItemClickListener { parent, view, position, id ->
                 val intent = Intent(this, Przepis::class.java)
                 val przepis :PrzepisElementy = listaPrzepisow[position]
-                intent.putExtra("danieid", arrayOf((position+4).toString(),przepis.Name,"Obiad"))
+                intent.putExtra("danieid", arrayOf((position+4).toString(),przepis.Name,"obiad"))
                 startActivity(intent)
             }
         } else {
@@ -85,7 +85,7 @@ class ListaPrzepisow : AppCompatActivity() {
             listView.setOnItemClickListener { parent, view, position, id ->
                 val intent = Intent(this, Przepis::class.java)
                 val przepis :PrzepisElementy = listaPrzepisow[position]
-                intent.putExtra("danieid", arrayOf((position+7).toString(),przepis.Name,"Deser"))
+                intent.putExtra("danieid", arrayOf((position+7).toString(),przepis.Name,"deser"))
                 startActivity(intent)
             }
 
