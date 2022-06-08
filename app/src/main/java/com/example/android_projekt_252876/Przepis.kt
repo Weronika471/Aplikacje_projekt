@@ -23,21 +23,21 @@ class Przepis : AppCompatActivity() {
 
         val image=findViewById<ImageView>(R.id.danieimage)
         val nameDesc=findViewById<Button>(R.id.nazwadania)
-        val danie_array = intent.getStringArrayExtra("danieid")
-        val danieid= danie_array?.get(0)
-        var img=danieid?.toInt()
-        val name=danie_array?.get(1)
+        val lista_dan = intent.getStringArrayExtra("danieid")
+        val danieid= lista_dan?.get(0)
+        val img=danieid?.toInt()
+        val name=lista_dan?.get(1)
         nameDesc.text = name
         if (img != null) {
             image.setImageResource(danieImage[img-1])
         }
 
-        var helper=DataBaseHelper(applicationContext)
-        var db=helper.readableDatabase
-        var query=db.rawQuery("SELECT * FROM OPIS WHERE OPISID ="+danieid,null)
+        val helper=DataBaseHelper(applicationContext)
+        val db=helper.readableDatabase
+        val query=db.rawQuery("SELECT * FROM OPIS WHERE OPISID ="+danieid,null)
 
         while(query.moveToNext()) {
-            var description=query.getString(1)
+            val description=query.getString(1)
             arrayListRepos.add(getString(description.toInt()))
         }
 
@@ -52,24 +52,22 @@ class Przepis : AppCompatActivity() {
 
     fun dodajDoUlubionych(view: View){
         val lista_dan = intent.getStringArrayExtra("danieid")
-        Toast.makeText(applicationContext,"Przepis dodany do ulubionych", Toast.LENGTH_SHORT).show()
-        var helper=DataBaseHelper(applicationContext)
-        var db=helper.readableDatabase
+        val helper=DataBaseHelper(applicationContext)
+        val db=helper.readableDatabase
 
         db?.execSQL("INSERT INTO ULUBIONE(NAZWAPRZEPISU, TYPPRZEPISU) VALUES ('"+lista_dan?.get(1)+"','"+lista_dan?.get(2)+"')")
-
+        Toast.makeText(applicationContext,"Przepis dodany do ulubionych", Toast.LENGTH_SHORT).show()
         val intent = Intent(this,UlubionePrzepisy::class.java)
         startActivity(intent)
     }
 
     fun dodajDoOstatnich(view: View){
         val lista_dan = intent.getStringArrayExtra("danieid")
-        Toast.makeText(applicationContext,"Przepis dodany do ostatnich", Toast.LENGTH_SHORT).show()
-        var helper=DataBaseHelper(applicationContext)
-        var db=helper.readableDatabase
+        val helper=DataBaseHelper(applicationContext)
+        val db=helper.readableDatabase
 
         db?.execSQL("INSERT INTO OSTATNIE(NAZWAPRZEPISU, TYPPRZEPISU) VALUES ('"+lista_dan?.get(1)+"','"+lista_dan?.get(2)+"')")
-
+        Toast.makeText(applicationContext,"Przepis dodany do ostatnich", Toast.LENGTH_SHORT).show()
         val intent = Intent(this,OstatniePrzepisy::class.java)
         startActivity(intent)
     }
