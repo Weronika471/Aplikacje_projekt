@@ -9,10 +9,6 @@ import androidx.core.content.ContextCompat
 
 class WyborPrzepisu : AppCompatActivity() {
 
-    //private lateinit var przekaski: Button
-    //private lateinit var obiad: Button
-    //private lateinit var deser: Button
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wybor_przepisu)
@@ -43,3 +39,4 @@ class WyborPrzepisu : AppCompatActivity() {
         startActivity(intent)
     }
 }
+
